@@ -9,14 +9,12 @@ function App() {
 
   return (
     <>
-      <div  className="  "> 
+      <div  className="  bg-neutral-900"> 
           <Headersite/>
 
-          
+    
 
-          <hr/>
-
-          <div className="py-4">
+          <div className="py-2">
             <Routes>
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/Oversized" element={<Oversized/>}></Route>

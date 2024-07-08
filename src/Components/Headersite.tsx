@@ -1,4 +1,4 @@
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo.png';
 
 export const Headersite = () => {
     return (<>
@@ -13,13 +13,13 @@ export const Headersite = () => {
 
             <div className="flex  ">
                 <input type="text"  width="510px" id="txtBusca" placeholder="Buscar..." />
-                <button><img src="https://img.icons8.com/ios-filled/50/000/search--v1.png" width="30px" height="30px" id="btnBusca" alt="Buscar" /></button>
+                <button><img src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" width="30px" height="30px" id="btnBusca" alt="Buscar" /></button>
             </div>
 
 
         </div>
-        <nav className="text-xl  align-items-center justify-center flex gap-60  m-auto bg-cyan-500 p-1"  >
-            <a className="no-underline " href="#">Inicio</a>
+        <nav className=" text-white text-xl  align-items-center justify-center flex gap-60   bg-red-600 p-1 mb-0"  >
+            <a  href="#">Inicio</a>
             <a href="#about">Sobre</a>
             <a href="#address">Endereço</a>
 
